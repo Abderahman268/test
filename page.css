@@ -1,0 +1,48 @@
+/* text-shadow: horizontal vertical blur color 
+ box-shadow: horizontal vertical blur spread color inset*/
+/* 100>=thin
+   200>=semi light
+   300>=light
+   400>=normal
+   500>=medium
+   600>=semi bold
+   700>=bold
+   800>=max bold
+   900>=black
+*/
+/* 
+font: font-style font-variant font-weight font-size/line height font-family
+*/
+body{
+background-image:linear-gradient(to top right, darkslategray, darkturquoise);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+form{
+   background-color:rgba(56, 112, 112, 0.677);
+   padding: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 5px;
+   width: 80%;
+}
+form input{
+   background-color: rgba(15, 236, 236, 0.612);
+   border: none;
+   outline: none;
+   color: azure;
+   flex-basis: 200px;
+   flex-grow: 1;
+   padding: 5px 10px ;
+}
+form button{
+   background-color: rgba(15, 236, 236, 0.612);
+   color: azure;
+   border: none;
+   flex-basis: 30px;
+   flex-grow: 1;
+   padding: 5px 10px;
+   cursor: pointer;
+}
